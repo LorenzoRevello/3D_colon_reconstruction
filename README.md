@@ -1,9 +1,6 @@
-# 3D_colon_reconstruction
-Official code for "3D Reconstruction of the Colon Surface from Monocular Endoscopy for Missing Regions Quantification". This pipeline uses TSDF fusion and Poisson reconstruction to explicitly identify, map, and quantify unobserved mucosa (blind spots) from standard monocular videos, enabling objective colonoscopy quality assessment.
-
 # Endoscopic 3D Reconstruction and Coverage Analysis
 
-This repository provides a complete pipeline for **3D reconstruction** from endoscopic sequences and **advanced mesh coverage analysis**. It integrates depth estimation, camera pose tracking, and a specialized module to quantify and visualize areas of the anatomy that were missed during the procedure.
+Official code for "3D Reconstruction of the Colon Surface from Monocular Endoscopy for Missing Regions Quantification". This repository provides a complete pipeline for **3D reconstruction** from endoscopic sequences and **advanced mesh coverage analysis**. It integrates depth estimation, camera pose tracking, and a specialized module to quantify and visualize areas of the anatomy that were missed during the procedure.
 
 ---
 
