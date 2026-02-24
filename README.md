@@ -11,10 +11,10 @@ This repository provides a complete pipeline for **3D reconstruction** from endo
 
 The project is organized into four main modules:
 
-* **`depth_estimation/`**: Contains the Deep Learning models and scripts to predict depth maps from endoscopic frames.
-* **`pose_estimation/`**: Includes algorithms to estimate the camera trajectory (Rotation/Translation) across the sequence.
+* **`Depth_estimation/`**: Contains the Deep Learning models and scripts to predict depth maps from endoscopic frames.
+* **`Pose_estimation/`**: Includes algorithms to estimate the camera trajectory (Rotation/Translation) across the sequence.
 * **`3D_reconstruction/`**: Features the `reconstruction.py` script, which uses a **Scalable TSDF** (Truncated Signed Distance Function) Volume to fuse depth and pose data into a high-fidelity 3D mesh.
-* **`MISSING_Region/`**: Features the `close_mesh_poisson.py` script. This module performs **Poisson Surface Reconstruction** to identify "holes" in the geometry, mapping and quantifying unobserved regions.
+* **`Missing_Region/`**: Features the `missing.py` script. This module performs **Poisson Surface Reconstruction** to identify "holes" in the geometry, mapping and quantifying unobserved regions.
 
 ---
 
@@ -29,13 +29,14 @@ The pipeline has been tested and validated on two major benchmark datasets:
 
 ## ⚙️ Data Organization
 
-To ensure the scripts work correctly, organize your data as follows:
+To ensure the `reconstruction.py` script to work correctly, organize your data as follows:
 
 ```plaintext
 /data
-  ├── sequence_name
-  │   ├── Frames_metric/              # Predicted depth maps (.png) and/or RGB frames
+  ├── sequence_name                 
+  │   ├── Frames/                     # Input RGB frames
+  │   ├── Depth/                      # Predicted depth maps (.png or .tiff)
   │   ├── SavedPosition.txt           # Camera positions (X, Y, Z)
   │   ├── SavedRotationQuaternion.txt # Camera rotations (Quaternions)
   │   ├── cam.txt                     # Camera intrinsics (matrix format)
-  │   └── mesh.ply                    # (Output) The generated 3D reconstruction
+
