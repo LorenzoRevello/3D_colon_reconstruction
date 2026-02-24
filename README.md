@@ -11,7 +11,7 @@ The project is organized into four main modules:
 * **`Depth_estimation/`**: Contains the Deep Learning models and scripts to predict depth maps from endoscopic frames.
 * **`Pose_estimation/`**: Includes algorithms to estimate the camera trajectory (Rotation/Translation) across the sequence.
 * **`3D_reconstruction/`**: Features the `reconstruction.py` script, which uses a **Scalable TSDF** (Truncated Signed Distance Function) Volume to fuse depth and pose data into a high-fidelity 3D mesh.
-* **`Missing_Region/`**: Features the `missing.py` script. This module performs **Poisson Surface Reconstruction** to identify "holes" in the geometry, mapping and quantifying unobserved regions.
+* **`Missing_regions/`**: Features the `missing.py` script. This module performs **Poisson Surface Reconstruction** to identify "holes" in the geometry, mapping and quantifying unobserved regions.
 
 ---
 
