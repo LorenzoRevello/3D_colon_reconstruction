@@ -45,12 +45,5 @@ To ensure the `reconstruction.py` script to work correctly, organize your data a
   │   ├── cam.txt                     # Camera intrinsics (matrix format)
 ```
 
-## TSDF 3D Reconstruction 
-
-<p align="center">
-  <img src="LINK_DELLA_TUA_GIF" width="50%" alt="3D Reconstruction Demo">
-  <br>
-  <i>Progressive 3D Reconstruction using Scalable TSDF Volume.</i>
-</p>
 
 
