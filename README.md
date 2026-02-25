@@ -45,8 +45,9 @@ To ensure the `reconstruction.py` script to work correctly, organize your data a
   │   ├── cam.txt                     # Camera intrinsics (matrix format)
 ```
 ## TSDF 3D Reconstruction
+
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/89b0ac6d-d2f9-43db-a328-4a9535d8bba4" width="70%" controls muted autoplay loop>
+  <video src="https://github.com/user-attachments/assets/1865191e-9460-4134-a2a6-eaf2ce1554f4" width="70%" controls muted autoplay loop>
   </video>
   <br>
   <i><b>Progressive 3D Reconstruction:</b> Fusion of depth and RGB data into a global TSDF volume. The visualization shows the surface forming as the camera traverses the endoscopic trajectory.</i>
