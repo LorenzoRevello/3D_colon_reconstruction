@@ -15,10 +15,10 @@ The project is organized into four main modules:
 
 ---
 ## 🛰️ Workflow Pipeline
-![Pipeline Diagram](<img width="3907" height="2677" alt="PIPELINE_DEF drawio" src="https://github.com/user-attachments/assets/3d8a49f8-dfe1-4240-9272-9fbe6ac960db" />)
+
+![pipeline](https://github.com/user-attachments/assets/224ed15b-4fb2-423d-b6cf-284c182a9d45)
 
 ---
-
 
 ## 📊 Dataset Validation
 
@@ -41,8 +41,5 @@ To ensure the `reconstruction.py` script to work correctly, organize your data a
   │   ├── SavedPosition.txt           # Camera positions (X, Y, Z)
   │   ├── SavedRotationQuaternion.txt # Camera rotations (Quaternions)
   │   ├── cam.txt                     # Camera intrinsics (matrix format)
-
-
-
-<img width="3907" height="2677" alt="PIPELINE_DEF drawio" src="https://github.com/user-attachments/assets/3d8a49f8-dfe1-4240-9272-9fbe6ac960db" />
+```
 
