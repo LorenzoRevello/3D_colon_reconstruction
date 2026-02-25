@@ -16,7 +16,9 @@ The project is organized into four main modules:
 ---
 ## 🛰️ Workflow Pipeline
 
-![pipeline](https://github.com/user-attachments/assets/224ed15b-4fb2-423d-b6cf-284c182a9d45)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/224ed15b-4fb2-423d-b6cf-284c182a9d45" width="60%">
+</p>
 
 ---
 
@@ -42,4 +44,13 @@ To ensure the `reconstruction.py` script to work correctly, organize your data a
   │   ├── SavedRotationQuaternion.txt # Camera rotations (Quaternions)
   │   ├── cam.txt                     # Camera intrinsics (matrix format)
 ```
+
+## TSDF 3D Reconstruction 
+
+<p align="center">
+  <img src="LINK_DELLA_TUA_GIF" width="50%" alt="3D Reconstruction Demo">
+  <br>
+  <i>Progressive 3D Reconstruction using Scalable TSDF Volume.</i>
+</p>
+
 
